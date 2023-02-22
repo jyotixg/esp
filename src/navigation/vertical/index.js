@@ -6,17 +6,20 @@ const navigation = () => {
       icon: 'mdi:home-outline',
     },
     {
-      title: 'Second Page',
-      path: '/second-page',
-      icon: 'mdi:email-outline',
+      title: 'Clients',
+      icon: 'mdi:people',
+      children: [
+        {
+          title: 'List',
+          path: '/clients/list-client'
+        },
+        {
+          title: 'Add',
+          path: '/clients/add-client'
+        }
+      ]
     },
-    {
-      path: '/acl',
-      action: 'read',
-      subject: 'acl-page',
-      title: 'Access Control',
-      icon: 'mdi:shield-outline',
-    }
+
   ]
 }
 
