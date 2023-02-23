@@ -8,16 +8,17 @@ const navigation = () => {
     {
       title: 'Clients',
       icon: 'mdi:people',
-      children: [
-        {
-          title: 'List',
-          path: '/clients/list-client'
-        },
-        {
-          title: 'Add',
-          path: '/clients/add-client'
-        }
-      ]
+      path: '/clients'
+      // children: [
+      //   {
+      //     title: 'List',
+      //     path: '/clients/list-client'
+      //   },
+      //   {
+      //     title: 'Add',
+      //     path: '/clients/add-client'
+      //   }
+      // ]
     },
 
   ]
